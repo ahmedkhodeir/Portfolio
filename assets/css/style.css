@@ -150,6 +150,16 @@ h6 {
     flex-direction: column;
     align-items: center;
   }
+  
+  #main .imgPortfolio {
+    width: 100%;
+    height: 100%;
+  }
+
+  body::before {
+    background-size: 250%;
+    background-position-y: center;
+  }
 }
 
 /* Header Top */
